@@ -1,0 +1,6 @@
+config/secret.py
+config/__pycache__/*
+__pycache__/*
+/*~
+*/*~
+reference.json
