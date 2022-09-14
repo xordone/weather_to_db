@@ -4,8 +4,8 @@ import config.settings as config
 # Docs https://yandex.ru/dev/weather/doc/dg/concepts/forecast-info.html
 class YandexWeather():
     def __init__(self, json):
-        self.url = json['url']
-        self.timestamp = json['info']['now']
+        self.url = json['info']['url']
+        self.timestamp = json['now']
         self.date = datetime.datetime.fromtimestamp(json['now']).strftime(config.time_format)
         self.week = json['forecast']['week']
         self.temperature = json['fact']['temp']

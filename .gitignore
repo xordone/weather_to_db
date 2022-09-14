@@ -6,3 +6,5 @@ __pycache__/*
 reference.json
 /*#
 #*
+.vscode/*
+config/base1.db
